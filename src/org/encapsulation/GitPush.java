@@ -3,12 +3,13 @@ package org.encapsulation;
 public class GitPush {
 	
 	private void empId() {
-		// TODO Auto-generated method stub
-
+		System.out.println("pushing");
 	}
 	
 	public static void main(String[] args) {
 		
+		GitPush gi = new GitPush();
+		gi.empId();
 		
 	}
 
